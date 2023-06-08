@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <div class="container">
+    <div class="detail">
+
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receving monthly updates on:</p>
+
+      <div class="list">
+        <i class="bi bi-check-circle-fill icon"></i>
+        Product discovery and building what matters
+      </div>
+
+      <div class="list">
+        <i class="bi bi-check-circle-fill icon"></i>
+        Measuring to ensure updates are a success
+      </div>
+
+    
+      <div class="list">
+        <i class="bi bi-check-circle-fill icon"></i>
+        And much more
+      </div>
+
+      <form >
+        <div class="emailContainer">
+          <div class="emialAndError">
+            <div class="emailHead">Email address</div>
+            <div class="errorShow"></div>
+          </div>
+          <input type="email" class="userInput both" placeholder="email@company.com" required>
+          <button type="button" class="buttonTag both">Subscribe to monthly newsletter</button>
+        </div>
+      </form>
+
+
+    </div>
+
+
+    <div class="imgTagContainer">
+      <img class="imgTagDestop" src="assets/images/illustration-sign-up-desktop.svg" alt="desktop"> 
+      <img class="imgTagMobile" src="assets/images/illustration-sign-up-mobile.svg" alt="mobile">   
+    </div>
+
+
+  </div>
+
+  <div class="successPage">
+    <div class="successIconDiv">
+      <i class="bi bi-check-circle-fill icon successIcon"></i>
+    </div>
+    <h2>Thanks for subscribing</h2>
+    <div class="reply">
+
+    </div>
+    <button type="submit" class="buttonTag both successButton">Dismiss message</button>
+  </div>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
